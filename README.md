@@ -69,12 +69,7 @@ insightboard/
 | POST   | `/api/auth/register`| Register a new user      | No            |
 | POST   | `/api/auth/login`   | Login and receive JWT    | No            |
 
-**Login Request Body:**
-```json
-{
-  "email": "admin@test.com",
-  "password": "password123"
-}
+
 ```
 
 **Login Response:**
@@ -148,7 +143,7 @@ Authorization: Bearer <token>
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/insightboard.git
+git clone https://github.com/revathi-0312/InsightDashboard.git
 cd insightboard
 ```
 
@@ -209,8 +204,6 @@ npm run dev
 ---
 
 ## 📸 Dashboard Screenshots
-
-> Add screenshots here after taking them from your running app.
 
 ### Login Page
 ![Login Page](./screenshots/login.png)

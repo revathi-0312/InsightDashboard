@@ -1,0 +1,10 @@
+{
+    "buildCommand": "cd frontend/InsightsDashboard && npm install && npm run build",
+    "outputDirectory": "frontend/InsightsDashboard/dist",
+    "rewrites": [
+        {
+            "source": "/(.*)",
+            "destination": "/index.html"
+        }
+    ]
+}
